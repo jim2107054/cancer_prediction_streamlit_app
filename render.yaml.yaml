@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: cancer-prediction-app
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run app1.py"
