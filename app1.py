@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 # Load the saved model
-loaded_model = pickle.load(open('C:/Users/HP/Downloads/NoteBook of ML/cancer_prediction_model.sav', 'rb'))
+loaded_model = pickle.load(open('cancer_prediction_model.sav', 'rb'))
 
 # Create a function for the cancer prediction system
 def predict(input_data):
